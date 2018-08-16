@@ -1,13 +1,16 @@
 import * as CryptoJS from 'crypto-js';
 
+interface Error {
+  errorCode: number;
+  description: string;
+}
+
+let jwtSecret = '';
+
 export class Utils {
-  private jwtSecret: string;
+  constructor() {}
 
-  constructor() {
-    this.jwtSecret = '';
-  }
-
-  generateJWTSecretToken() {
+  generateJWTSecretToken(): void {
     const base64url = source => {
       // Encode in classical base64
       let encodedSource = CryptoJS.enc.Base64.stringify(source);
@@ -45,12 +48,17 @@ export class Utils {
       CryptoJS.HmacSHA256(`${encodedHeader}.${encodedData}`, secret)
     );
 
-    this.jwtSecret = `${encodedHeader}.${encodedData}.${signature}`;
-
-    return this.jwtSecret;
+    jwtSecret = `${encodedHeader}.${encodedData}.${signature}`;
   }
 
-  getJWTSecretToken() {
-    return this.jwtSecret;
+  getJWTSecretToken(): string {
+    return jwtSecret;
+  }
+
+  formatErrorInfo(errorCode: number, description: string): Error {
+    return {
+      errorCode: errorCode,
+      description: description
+    };
   }
 }

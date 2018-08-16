@@ -17,6 +17,7 @@ export class Passport {
   constructor() {
     this.utils = new Utils();
     this.utils.generateJWTSecretToken();
+    this.setupConfigs();
   }
 
   setupConfigs() {
@@ -30,9 +31,14 @@ export class Passport {
           Users.findOne({ email })
             .then(user => {
               if (!user || !user.validatePassword(password)) {
-                return done(null, false, {
-                  errors: { 'email or password': 'is invalid' }
-                });
+                return done(
+                  null,
+                  false,
+                  this.utils.formatErrorInfo(
+                    205,
+                    'Invalid username or password.'
+                  )
+                );
               }
 
               return done(null, user);

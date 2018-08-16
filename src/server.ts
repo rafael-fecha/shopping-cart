@@ -46,7 +46,6 @@ export class Server {
     this.app = express();
 
     this.config();
-
     this.api();
   }
 
@@ -57,19 +56,15 @@ export class Server {
       } = req;
 
       if (!user.email) {
-        return res.status(422).json({
-          errors: {
-            email: 'is required'
-          }
-        });
+        return res
+          .status(400)
+          .json(this.utils.formatErrorInfo(203, 'No username was specified.'));
       }
 
       if (!user.password) {
-        return res.status(422).json({
-          errors: {
-            password: 'is required'
-          }
-        });
+        return res
+          .status(400)
+          .json(this.utils.formatErrorInfo(202, 'No password was specified.'));
       }
 
       const finalUser = new Users(user);
@@ -87,19 +82,15 @@ export class Server {
       } = req;
 
       if (!user.email) {
-        return res.status(422).json({
-          errors: {
-            email: 'is required'
-          }
-        });
+        return res
+          .status(400)
+          .json(this.utils.formatErrorInfo(203, 'No username was specified.'));
       }
 
       if (!user.password) {
-        return res.status(422).json({
-          errors: {
-            password: 'is required'
-          }
-        });
+        return res
+          .status(400)
+          .json(this.utils.formatErrorInfo(202, 'No password was specified.'));
       }
 
       return passport.authenticate(
@@ -117,10 +108,10 @@ export class Server {
               this.utils.getJWTSecretToken()
             );
 
-            return res.json(token);
+            return res.send(token);
           }
 
-          return res.send(info).sendStatus(400);
+          return res.status(403).send(info);
         }
       )(req, res, next);
     });
@@ -141,7 +132,11 @@ export class Server {
         const transaction = await this.transactionsController.getTransaction(
           req.params.transactionId
         );
-        res.send(transaction).status(200);
+        transaction
+          ? res.send(transaction).status(200)
+          : res
+              .sendStatus(404)
+              .send(this.utils.formatErrorInfo(600, 'Not found.'));
       }
     );
   }
@@ -151,7 +146,6 @@ export class Server {
     mongoose.connect(MONGODB_CONNECTION);
 
     this.passport = new Passport();
-    this.passport.setupConfigs();
 
     this.app.use(express.static(path.join(__dirname, 'public')));
 
@@ -163,7 +157,7 @@ export class Server {
 
     this.app.use(methodOverride());
 
-    this.app.use(cookieParser('SECRET'));
+    this.app.use(cookieParser('SECRET_GOES_HERE'));
 
     this.app.use(function(
       err: any,
