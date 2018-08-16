@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "grunt": "grunt",
     "start": "grunt && node --inspect ./bin/www",
-    "populate": "grunt && node_modules/babel-cli/bin/babel-node.js dist/scripts/populate.js"
+    "populate": "grunt && node_modules/babel-cli/bin/babel-node.js dist/scripts/populate.js",
+    "unit-tests": "node_modules/mocha/bin/mocha -r ts-node/register src/**/*.spec.ts"
   },
   "author": "",
   "license": "ISC",
@@ -40,21 +41,28 @@
   },
   "devDependencies": {
     "@types/body-parser": "^1.16.8",
+    "@types/chai": "^4.1.4",
     "@types/cookie-parser": "^1.4.1",
     "@types/errorhandler": "0.0.32",
     "@types/formidable": "^1.0.30",
     "@types/method-override": "0.0.31",
+    "@types/mocha": "^5.2.5",
     "@types/morgan": "^1.7.35",
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
     "grunt": "^1.0.2",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-ts": "^6.0.0-beta.17",
+    "mocha": "^5.2.0",
     "nodemon": "^1.18.3",
+    "ts-node": "^7.0.1",
     "typedoc": "^0.11.1",
-    "typescript": "~2.5.3"
+    "typescript": "~2.5.3",
+    "typings": "^2.1.1"
   }
 }
