@@ -1,0 +1,864 @@
+{
+  "com.gk_software.gkr.api.txpool.dto.Transaction": {
+    "key": {
+      "businessUnitGroupID": 100000000000000003,
+      "transactionID": "54zbf89b632ed59491895a7afa5bcfd6"
+    },
+    "operatorID": "90905",
+    "workstationID": "113",
+    "businessUnitID": "9090",
+    "businessDayDate": "2018-03-26T00:00:00.000",
+    "sequenceNumber": 25,
+    "transactionTypeCode": "RTLTRN",
+    "beginDateTimestamp": "2018-03-26T16:29:12.441",
+    "endDateTimestamp": "2018-03-26T16:29:27.924",
+    "cancelledFlag": false,
+    "suspendedFlag": false,
+    "trainingFlag": false,
+    "keyedOfflineFlag": "OL",
+    "workerID": "90905",
+    "workerFirstName": "FirstName5",
+    "workerLastName": "LastName5",
+    "softwareVersion": "POS-Client v5.7.0-b02-SNAPSHOT",
+    "internalSequenceNumber": 24,
+    "fiscalFlag": false,
+    "transactionTimestamp": "2018-03-26T16:29:27.924",
+    "beginDateTimestampUTC0": "2018-03-26T16:29:12.441+0200",
+    "endDateTimestampUTC0": "2018-03-26T16:29:29.533+0200",
+    "transactionTimestampUTC0": "2018-03-26T16:29:29.533+0200",
+    "transactionBinaryDataList": [
+      {
+        "com.gk_software.gkr.api.txpool.dto.TransactionBinaryData": {
+          "key": {
+            "businessUnitGroupID": 100000000000000003,
+            "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+            "binaryDataSequenceNumber": 0
+          },
+          "name": "Journal",
+          "contentLength": 1434,
+          "content": [
+            "[B",
+            "ICAgICAgICAgICAgR0sgU3RvcmUgR2VybWFueSAgICAgICAgICAgIAogICAgICAgICAgICAgICBTdG9yZSA5MDkwICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgIFdhbGRzdHIuIDcgICAgICAgICAgICAgICAKICAgICAgICBTY2jDtm5lY2ssIFNhY2hzZW4gMDgyNjEgICAgICAgICAKICAgICAgICAgVGVsZXBob25lIDAwNDkzNzQ2NDg0MCAgICAgICAgIAoKICAgICAgICAgIFRheCBJRDogREUyMTI1MTI1MTI1ICAgICAgICAgIAoKCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRVVSCkl0ZW0vR1RJTiAyICAgICAgICAgICAgICAKQmFnIDQ1ICAgICAgICAgICAgICAgICAgICAgICAgICAgNDUuNDUgQgoKSXRlbS9HVElOIDIwNTAwMDAwMDAwMDMgIApTbmVha2VyICAgICAgICAgICAgICAgICAgICAgICAgICAyOS43OSBCCgpJdGVtL0dUSU4gMjA1MDAwMDAwMDAxMCAgCkNhcCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA2LjAwIEIKCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS0tLS0tLS0tLS0KVE9UQUwgWzNdICAgICAgICAgICAgIEVVUiAgICAgICAgODEuMjQKQm9ucmFiYXR0IDUlICAgICAgICAgICAgICAgICAgICAgLTQuMDYKUmVhc29uOiBDb3Vwb24gICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIC0tLS0tLS0tLS0tClRPVEFMICAgICAgICAgICAgICAgICBFVVIgICAgICAgIDc3LjE4CkJhciAgICAgICAgICAgICAgICAgICBFVVIgICAgICAgIDUwLjAwCkJhciAgICAgICAgICAgICAgICAgICBFVVIgICAgICAgIDIwLjAwCkJhciAgICAgICAgICAgICAgICAgICBFVVIgICAgICAgIDEwLjAwCkJhciAgICAgICAgICAgICAgICAgICBFVVIgICAgICAgIC0yLjgyCgogICAgICAgICAgICAgVEFYICAgICAgIEdST1NTICAgICAgICAgTkVUCkIgMTklICAgICDigqwxMi4zMiAgICAgIOKCrDc3LjE4ICAgICAg4oKsNjQuODYKCgpCQVJDT0RFIFsKQkFSQ09ERVRZUEUgPSBUWVBFXzJPRjUKSEVJR0hUID0gMwpBTElHTk1FTlQgPSBDRU5URVIKQkFSQ09ERVRFWFRQT1NJVElPTiA9IEFCT1ZFClZBTFVFID0gMDAxOTA5MDI2MDMxODExMzAwMDAyNQpCQVJDT0RFVEVYVFBPU0lUSU9OID0gQUJPVkUKV0lEVEggPSAyCl0KCgogICAgG3xiQ1lvdSB3ZXJlIHNlcnZlZCBieTogICAgICAgICAgIAogICAgRmlyc3ROYW1lNSBMYXN0TmFtZTUgICAgICAgICAgICAgICAgCgoKRGF0ZSAgICAgVGltZSAgICAgU3RvcmUgICBQb3MgIE9wciAgUmNwdAowMy8yNi8xOCAwNDoyOSBQTSA5MDkwICAgIDExMyA5MDkwNSAwMDI1CgogICAgIFZpZWxlbiBEYW5rIGbDvHIgSWhyZW4gRWlua2F1ZiEgICAgIAogICAgICAgQml0dGUgYmVhY2h0ZW4gU2llIHVuc2VyZSAgICAgICAgCiAgICAgICAgYWt0dWVsbGVuIFNvbmRlcmFuZ2Vib3RlICAgICAgICAK"
+          ]
+        }
+      }
+    ],
+    "transactionCategoryList": [],
+    "transactionExtensionList": [
+      {
+        "com.gk_software.gkr.api.txpool.dto.TransactionExtension": {
+          "key": {
+            "businessUnitGroupID": 100000000000000003,
+            "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+            "extensionKey": "SALES_TAX_AUTHORITY_ID",
+            "extensionSequenceNumber": 0
+          },
+          "extensionValue": "1"
+        }
+      },
+      {
+        "com.gk_software.gkr.api.txpool.dto.TransactionExtension": {
+          "key": {
+            "businessUnitGroupID": 100000000000000003,
+            "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+            "extensionKey": "SUBTOTAL_DEFINED",
+            "extensionSequenceNumber": 0
+          },
+          "extensionValue": "TRUE"
+        }
+      },
+      {
+        "com.gk_software.gkr.api.txpool.dto.TransactionExtension": {
+          "key": {
+            "businessUnitGroupID": 100000000000000003,
+            "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+            "extensionKey": "END_DATE_TIMESTAMP_EXTENSION",
+            "extensionSequenceNumber": 0
+          },
+          "extensionValue": "2018-03-26T16:29:27.924"
+        }
+      },
+      {
+        "com.gk_software.gkr.api.txpool.dto.TransactionExtension": {
+          "key": {
+            "businessUnitGroupID": 100000000000000003,
+            "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+            "extensionKey": "ADDITIONAL_PRINTOUT_DONE",
+            "extensionSequenceNumber": 0
+          },
+          "extensionValue": "TRUE"
+        }
+      }
+    ],
+    "endWorkstationID": "113",
+    "isocurrencyCode": "EUR",
+    "retailTransactionList": [
+      {
+        "com.gk_software.gkr.api.txpool.dto.RetailTransaction": {
+          "key": {
+            "businessUnitGroupID": 100000000000000003,
+            "transactionID": "54zbf89b632ed59491895a7afa5bcfd6"
+          },
+          "retailTransactionTypeCode": "SA",
+          "tillID": 5,
+          "receiptDateTime": "2018-03-26T16:29:27.924",
+          "receiptPrintoutFlag": true,
+          "promotionTimestamp": "2018-03-26T16:29:12.441",
+          "retailTransactionLineItemList": [
+            {
+              "com.gk_software.gkr.api.txpool.dto.RetailTransactionLineItem": {
+                "key": {
+                  "businessUnitGroupID": 100000000000000003,
+                  "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                  "retailTransactionLineItemSequenceNumber": 0
+                },
+                "beginDateTimestamp": "2018-03-26T16:29:12.461",
+                "voidFlag": false,
+                "endDateTimestamp": "2018-03-26T16:29:13.473",
+                "entryMethodCode": "Keyed",
+                "retailTransactionLineItemTypeCode": "SR",
+                "workstationID": "113",
+                "workstationTypeCode": "POS",
+                "keyedOfflineCode": "OL",
+                "beginDateTimestampUTC0": "2018-03-26T16:29:12.461+0200",
+                "endDateTimestampUTC0": "2018-03-26T16:29:13.473+0200",
+                "retailTransactionLineItemI18NTextList": [],
+                "saleReturnLineItemList": [
+                  {
+                    "com.gk_software.gkr.api.txpool.dto.SaleReturnLineItem": {
+                      "key": {
+                        "businessUnitGroupID": 100000000000000003,
+                        "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                        "retailTransactionLineItemSequenceNumber": 0
+                      },
+                      "itemID": "201602160045",
+                      "unitOfMeasureCode": "PCE",
+                      "itemType": "CO",
+                      "regularUnitPrice": 45.45,
+                      "actualUnitPrice": 45.45,
+                      "quantity": 1,
+                      "units": 1,
+                      "extendedAmount": 45.45,
+                      "extendedDiscountAmount": 0,
+                      "sellUnitRetailPriceEntryMethodCode": "PRIC",
+                      "actionCode": "SI",
+                      "quantityInputMethod": "01",
+                      "manualWeightInputFlag": false,
+                      "receiptText": "Bag 45",
+                      "receiptDescription": "Bag 45",
+                      "allowFoodStampFlag": false,
+                      "registrationNumber": "2",
+                      "negativeLineItemFlag": false,
+                      "discountFlag": true,
+                      "frequentShopperPointsEligibilityFlag": true,
+                      "priceChangeTypeCode": "00",
+                      "grandExtendedAmount": 45.45,
+                      "notConsideredByLoyaltyEngineFlag": false,
+                      "merchandiseHierarchyGroupName": "Bags",
+                      "merchandiseHierarchyGroupDescription": "Bags",
+                      "itemClassCode": "HAWA",
+                      "prohibitTaxExemptFlag": false,
+                      "prohibitReturnFlag": false,
+                      "warrantyDuration": 0,
+                      "taxExemptCode": "00",
+                      "mainPOSItemID": "2016021600455",
+                      "mainMerchandiseHierarchyGroupIDQualifier": "MAIN",
+                      "mainMerchandiseHierarchyGroupID": "060700",
+                      "taxReductionAmount": 0,
+                      "taxGroupID": "A1",
+                      "taxReceiptPrintCode": "B",
+                      "originalTaxGroupID": "A1",
+                      "saleReturnLineItemExtensionList": [],
+                      "saleReturnLineItemCollectionList": [],
+                      "saleReturnLineItemPriceList": [
+                        {
+                          "com.gk_software.gkr.api.txpool.dto.SaleReturnLineItemPrice": {
+                            "key": {
+                              "businessUnitGroupID": 100000000000000003,
+                              "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                              "retailTransactionLineItemSequenceNumber": 0,
+                              "priceTypeCode": "00"
+                            },
+                            "priceAmount": 45.45
+                          }
+                        },
+                        {
+                          "com.gk_software.gkr.api.txpool.dto.SaleReturnLineItemPrice": {
+                            "key": {
+                              "businessUnitGroupID": 100000000000000003,
+                              "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                              "retailTransactionLineItemSequenceNumber": 0,
+                              "priceTypeCode": "RP"
+                            },
+                            "priceAmount": 43.18
+                          }
+                        }
+                      ],
+                      "retailPriceModifierList": [
+                        {
+                          "com.gk_software.gkr.api.txpool.dto.RetailPriceModifier": {
+                            "key": {
+                              "businessUnitGroupID": 100000000000000003,
+                              "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                              "retailTransactionLineItemSequenceNumber": 0,
+                              "retailPriceModifierSequenceNumber": 0
+                            },
+                            "promotionID": 100000000000001587,
+                            "priceDerivationRuleID": 100000000000010026,
+                            "priceDerivationRuleEligibilityID": 100000000000017242,
+                            "percent": 5,
+                            "amount": -2.27,
+                            "adjustmentMethodCode": "DC",
+                            "eligibilityTypeCode": "MANU",
+                            "extendedAmountBeforeModification": 45.45,
+                            "extendedAmountAfterModification": 43.18,
+                            "appliedQuantity": 1,
+                            "extraAmount": 0,
+                            "roundingAmount": -0.00138,
+                            "externalSystemOriginatorFlag": false,
+                            "prorateFrom": 20001,
+                            "calculationBaseAmount": 0
+                          }
+                        }
+                      ],
+                      "frequentShopperPointsModifierList": [],
+                      "saleReturnLineItemMerchandiseHierarchyGroupList": [
+                        {
+                          "com.gk_software.gkr.api.txpool.dto.SaleReturnLineItemMerchandiseHierarchyGroup": {
+                            "key": {
+                              "businessUnitGroupID": 100000000000000003,
+                              "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                              "retailTransactionLineItemSequenceNumber": 0,
+                              "merchandiseHierarchyGroupIDQualifier": "MAIN",
+                              "merchandiseHierarchyGroupID": "060700"
+                            }
+                          }
+                        }
+                      ],
+                      "posdepartmentID": "0002",
+                      "wicflag": false,
+                      "positemID": "2"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "com.gk_software.gkr.api.txpool.dto.RetailTransactionLineItem": {
+                "key": {
+                  "businessUnitGroupID": 100000000000000003,
+                  "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                  "retailTransactionLineItemSequenceNumber": 1
+                },
+                "beginDateTimestamp": "2018-03-26T16:29:13.481",
+                "voidFlag": false,
+                "endDateTimestamp": "2018-03-26T16:29:14.430",
+                "entryMethodCode": "Keyed",
+                "retailTransactionLineItemTypeCode": "SR",
+                "workstationID": "113",
+                "workstationTypeCode": "POS",
+                "keyedOfflineCode": "OL",
+                "beginDateTimestampUTC0": "2018-03-26T16:29:13.481+0200",
+                "endDateTimestampUTC0": "2018-03-26T16:29:14.430+0200",
+                "retailTransactionLineItemI18NTextList": [],
+                "saleReturnLineItemList": [
+                  {
+                    "com.gk_software.gkr.api.txpool.dto.SaleReturnLineItem": {
+                      "key": {
+                        "businessUnitGroupID": 100000000000000003,
+                        "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                        "retailTransactionLineItemSequenceNumber": 1
+                      },
+                      "itemID": "000000000000000001",
+                      "unitOfMeasureCode": "PCE",
+                      "itemType": "CO",
+                      "regularUnitPrice": 29.79,
+                      "actualUnitPrice": 29.79,
+                      "quantity": 1,
+                      "units": 1,
+                      "extendedAmount": 29.79,
+                      "extendedDiscountAmount": 0,
+                      "sellUnitRetailPriceEntryMethodCode": "PRIC",
+                      "actionCode": "SI",
+                      "quantityInputMethod": "01",
+                      "manualWeightInputFlag": false,
+                      "receiptText": "Sneaker",
+                      "receiptDescription": "Sneaker",
+                      "allowFoodStampFlag": false,
+                      "registrationNumber": "2050000000003",
+                      "negativeLineItemFlag": false,
+                      "discountFlag": true,
+                      "frequentShopperPointsEligibilityFlag": true,
+                      "priceChangeTypeCode": "00",
+                      "grandExtendedAmount": 29.79,
+                      "notConsideredByLoyaltyEngineFlag": false,
+                      "merchandiseHierarchyGroupName": "Shoes",
+                      "merchandiseHierarchyGroupDescription": "Shoes",
+                      "itemClassCode": "HAWA",
+                      "prohibitTaxExemptFlag": false,
+                      "prohibitReturnFlag": false,
+                      "warrantyDuration": 0,
+                      "taxExemptCode": "00",
+                      "mainPOSItemID": "2050000000003",
+                      "mainMerchandiseHierarchyGroupIDQualifier": "MAIN",
+                      "mainMerchandiseHierarchyGroupID": "060400",
+                      "taxReductionAmount": 0,
+                      "taxGroupID": "A1",
+                      "taxReceiptPrintCode": "B",
+                      "originalTaxGroupID": "A1",
+                      "saleReturnLineItemExtensionList": [],
+                      "saleReturnLineItemCollectionList": [],
+                      "saleReturnLineItemPriceList": [
+                        {
+                          "com.gk_software.gkr.api.txpool.dto.SaleReturnLineItemPrice": {
+                            "key": {
+                              "businessUnitGroupID": 100000000000000003,
+                              "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                              "retailTransactionLineItemSequenceNumber": 1,
+                              "priceTypeCode": "00"
+                            },
+                            "priceAmount": 29.79
+                          }
+                        },
+                        {
+                          "com.gk_software.gkr.api.txpool.dto.SaleReturnLineItemPrice": {
+                            "key": {
+                              "businessUnitGroupID": 100000000000000003,
+                              "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                              "retailTransactionLineItemSequenceNumber": 1,
+                              "priceTypeCode": "RP"
+                            },
+                            "priceAmount": 28.3
+                          }
+                        }
+                      ],
+                      "retailPriceModifierList": [
+                        {
+                          "com.gk_software.gkr.api.txpool.dto.RetailPriceModifier": {
+                            "key": {
+                              "businessUnitGroupID": 100000000000000003,
+                              "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                              "retailTransactionLineItemSequenceNumber": 1,
+                              "retailPriceModifierSequenceNumber": 0
+                            },
+                            "promotionID": 100000000000001587,
+                            "priceDerivationRuleID": 100000000000010026,
+                            "priceDerivationRuleEligibilityID": 100000000000017242,
+                            "percent": 5,
+                            "amount": -1.49,
+                            "adjustmentMethodCode": "DC",
+                            "eligibilityTypeCode": "MANU",
+                            "extendedAmountBeforeModification": 29.79,
+                            "extendedAmountAfterModification": 28.3,
+                            "appliedQuantity": 1,
+                            "extraAmount": 0,
+                            "roundingAmount": 0.00123,
+                            "externalSystemOriginatorFlag": false,
+                            "prorateFrom": 20001,
+                            "calculationBaseAmount": 0
+                          }
+                        }
+                      ],
+                      "frequentShopperPointsModifierList": [],
+                      "saleReturnLineItemMerchandiseHierarchyGroupList": [
+                        {
+                          "com.gk_software.gkr.api.txpool.dto.SaleReturnLineItemMerchandiseHierarchyGroup": {
+                            "key": {
+                              "businessUnitGroupID": 100000000000000003,
+                              "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                              "retailTransactionLineItemSequenceNumber": 1,
+                              "merchandiseHierarchyGroupIDQualifier": "MAIN",
+                              "merchandiseHierarchyGroupID": "060400"
+                            }
+                          }
+                        }
+                      ],
+                      "posdepartmentID": "1",
+                      "wicflag": false,
+                      "positemID": "2050000000003"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "com.gk_software.gkr.api.txpool.dto.RetailTransactionLineItem": {
+                "key": {
+                  "businessUnitGroupID": 100000000000000003,
+                  "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                  "retailTransactionLineItemSequenceNumber": 2
+                },
+                "beginDateTimestamp": "2018-03-26T16:29:14.442",
+                "voidFlag": false,
+                "endDateTimestamp": "2018-03-26T16:29:15.085",
+                "entryMethodCode": "Keyed",
+                "retailTransactionLineItemTypeCode": "SR",
+                "workstationID": "113",
+                "workstationTypeCode": "POS",
+                "keyedOfflineCode": "OL",
+                "beginDateTimestampUTC0": "2018-03-26T16:29:14.442+0200",
+                "endDateTimestampUTC0": "2018-03-26T16:29:15.085+0200",
+                "retailTransactionLineItemI18NTextList": [],
+                "saleReturnLineItemList": [
+                  {
+                    "com.gk_software.gkr.api.txpool.dto.SaleReturnLineItem": {
+                      "key": {
+                        "businessUnitGroupID": 100000000000000003,
+                        "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                        "retailTransactionLineItemSequenceNumber": 2
+                      },
+                      "itemID": "000000000000000003",
+                      "unitOfMeasureCode": "PCE",
+                      "itemType": "CO",
+                      "regularUnitPrice": 6,
+                      "actualUnitPrice": 6,
+                      "quantity": 1,
+                      "units": 1,
+                      "extendedAmount": 6,
+                      "extendedDiscountAmount": 0,
+                      "sellUnitRetailPriceEntryMethodCode": "PRIC",
+                      "actionCode": "SI",
+                      "quantityInputMethod": "01",
+                      "manualWeightInputFlag": false,
+                      "receiptText": "Cap",
+                      "receiptDescription": "Cap",
+                      "allowFoodStampFlag": false,
+                      "registrationNumber": "2050000000010",
+                      "negativeLineItemFlag": false,
+                      "discountFlag": true,
+                      "frequentShopperPointsEligibilityFlag": true,
+                      "priceChangeTypeCode": "00",
+                      "grandExtendedAmount": 6,
+                      "notConsideredByLoyaltyEngineFlag": false,
+                      "merchandiseHierarchyGroupName": "Sportswear",
+                      "merchandiseHierarchyGroupDescription": "Sportswear",
+                      "itemClassCode": "HAWA",
+                      "prohibitTaxExemptFlag": false,
+                      "prohibitReturnFlag": false,
+                      "warrantyDuration": 0,
+                      "taxExemptCode": "00",
+                      "mainPOSItemID": "2050000000010",
+                      "mainMerchandiseHierarchyGroupIDQualifier": "MAIN",
+                      "mainMerchandiseHierarchyGroupID": "060114",
+                      "taxReductionAmount": 0,
+                      "taxGroupID": "A1",
+                      "taxReceiptPrintCode": "B",
+                      "originalTaxGroupID": "A1",
+                      "saleReturnLineItemExtensionList": [],
+                      "saleReturnLineItemCollectionList": [],
+                      "saleReturnLineItemPriceList": [
+                        {
+                          "com.gk_software.gkr.api.txpool.dto.SaleReturnLineItemPrice": {
+                            "key": {
+                              "businessUnitGroupID": 100000000000000003,
+                              "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                              "retailTransactionLineItemSequenceNumber": 2,
+                              "priceTypeCode": "00"
+                            },
+                            "priceAmount": 6
+                          }
+                        },
+                        {
+                          "com.gk_software.gkr.api.txpool.dto.SaleReturnLineItemPrice": {
+                            "key": {
+                              "businessUnitGroupID": 100000000000000003,
+                              "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                              "retailTransactionLineItemSequenceNumber": 2,
+                              "priceTypeCode": "RP"
+                            },
+                            "priceAmount": 5.7
+                          }
+                        }
+                      ],
+                      "retailPriceModifierList": [
+                        {
+                          "com.gk_software.gkr.api.txpool.dto.RetailPriceModifier": {
+                            "key": {
+                              "businessUnitGroupID": 100000000000000003,
+                              "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                              "retailTransactionLineItemSequenceNumber": 2,
+                              "retailPriceModifierSequenceNumber": 0
+                            },
+                            "promotionID": 100000000000001587,
+                            "priceDerivationRuleID": 100000000000010026,
+                            "priceDerivationRuleEligibilityID": 100000000000017242,
+                            "percent": 5,
+                            "amount": -0.3,
+                            "adjustmentMethodCode": "DC",
+                            "eligibilityTypeCode": "MANU",
+                            "extendedAmountBeforeModification": 6,
+                            "extendedAmountAfterModification": 5.7,
+                            "appliedQuantity": 1,
+                            "extraAmount": 0,
+                            "roundingAmount": 0,
+                            "externalSystemOriginatorFlag": false,
+                            "prorateFrom": 20001,
+                            "calculationBaseAmount": 0
+                          }
+                        }
+                      ],
+                      "frequentShopperPointsModifierList": [],
+                      "saleReturnLineItemMerchandiseHierarchyGroupList": [
+                        {
+                          "com.gk_software.gkr.api.txpool.dto.SaleReturnLineItemMerchandiseHierarchyGroup": {
+                            "key": {
+                              "businessUnitGroupID": 100000000000000003,
+                              "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                              "retailTransactionLineItemSequenceNumber": 2,
+                              "merchandiseHierarchyGroupIDQualifier": "MAIN",
+                              "merchandiseHierarchyGroupID": "060114"
+                            }
+                          }
+                        }
+                      ],
+                      "posdepartmentID": "1",
+                      "wicflag": false,
+                      "positemID": "2050000000010"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "com.gk_software.gkr.api.txpool.dto.RetailTransactionLineItem": {
+                "key": {
+                  "businessUnitGroupID": 100000000000000003,
+                  "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                  "retailTransactionLineItemSequenceNumber": 25001
+                },
+                "beginDateTimestamp": "2018-03-26T16:29:19.852",
+                "voidFlag": false,
+                "retailTransactionLineItemTypeCode": "TX",
+                "workstationID": "113",
+                "workstationTypeCode": "POS",
+                "keyedOfflineCode": "OL",
+                "beginDateTimestampUTC0": "2018-03-26T16:29:19.852+0200",
+                "taxLineItemList": [
+                  {
+                    "com.gk_software.gkr.api.txpool.dto.TaxLineItem": {
+                      "key": {
+                        "businessUnitGroupID": 100000000000000003,
+                        "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                        "retailTransactionLineItemSequenceNumber": 25001
+                      },
+                      "taxIncludedInPricesFlag": true,
+                      "taxAtSourceFlag": true,
+                      "taxablePercent": 100,
+                      "taxableAmount": 77.18,
+                      "taxPercent": 19,
+                      "taxAmount": 12.32,
+                      "taxGroupRuleID": 2,
+                      "taxAuthorityID": 1,
+                      "taxAuthorityName": "Mwst. Deutschland",
+                      "taxGroupID": "A1",
+                      "receiptPrintCode": "B"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "com.gk_software.gkr.api.txpool.dto.RetailTransactionLineItem": {
+                "key": {
+                  "businessUnitGroupID": 100000000000000003,
+                  "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                  "retailTransactionLineItemSequenceNumber": 3
+                },
+                "beginDateTimestamp": "2018-03-26T16:29:25.021",
+                "voidFlag": false,
+                "endDateTimestamp": "2018-03-26T16:29:25.021",
+                "retailTransactionLineItemTypeCode": "TL",
+                "workstationID": "113",
+                "workstationTypeCode": "POS",
+                "keyedOfflineCode": "OL",
+                "beginDateTimestampUTC0": "2018-03-26T16:29:25.021+0200",
+                "endDateTimestampUTC0": "2018-03-26T16:29:25.021+0200",
+                "retailTransactionLineItemBinaryDataList": [],
+                "tenderLineItemList": [
+                  {
+                    "com.gk_software.gkr.api.txpool.dto.TenderLineItem": {
+                      "key": {
+                        "businessUnitGroupID": 100000000000000003,
+                        "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                        "retailTransactionLineItemSequenceNumber": 3
+                      },
+                      "isChangeFlag": false,
+                      "tenderTypeCode": "ZTCS",
+                      "foreignCurrencyAmount": 50,
+                      "exchangeRate": 1,
+                      "tenderAmount": 50,
+                      "tenderGroupCode": "CASH",
+                      "tenderCount": 1,
+                      "tenderDescription": "Bar",
+                      "cashbackFlag": false,
+                      "foreignISOCurrencyCode": "EUR",
+                      "exchangeRateMultiplyFlag": true,
+                      "currencySymbol": "€"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "com.gk_software.gkr.api.txpool.dto.RetailTransactionLineItem": {
+                "key": {
+                  "businessUnitGroupID": 100000000000000003,
+                  "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                  "retailTransactionLineItemSequenceNumber": 4
+                },
+                "beginDateTimestamp": "2018-03-26T16:29:26.354",
+                "voidFlag": false,
+                "endDateTimestamp": "2018-03-26T16:29:26.354",
+                "retailTransactionLineItemTypeCode": "TL",
+                "workstationID": "113",
+                "workstationTypeCode": "POS",
+                "keyedOfflineCode": "OL",
+                "beginDateTimestampUTC0": "2018-03-26T16:29:26.354+0200",
+                "endDateTimestampUTC0": "2018-03-26T16:29:26.354+0200",
+                "retailTransactionLineItemBinaryDataList": [],
+                "tenderLineItemList": [
+                  {
+                    "com.gk_software.gkr.api.txpool.dto.TenderLineItem": {
+                      "key": {
+                        "businessUnitGroupID": 100000000000000003,
+                        "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                        "retailTransactionLineItemSequenceNumber": 4
+                      },
+                      "isChangeFlag": false,
+                      "tenderTypeCode": "ZTCS",
+                      "foreignCurrencyAmount": 20,
+                      "exchangeRate": 1,
+                      "tenderAmount": 20,
+                      "tenderGroupCode": "CASH",
+                      "tenderCount": 1,
+                      "tenderDescription": "Bar",
+                      "cashbackFlag": false,
+                      "foreignISOCurrencyCode": "EUR",
+                      "exchangeRateMultiplyFlag": true,
+                      "currencySymbol": "€"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "com.gk_software.gkr.api.txpool.dto.RetailTransactionLineItem": {
+                "key": {
+                  "businessUnitGroupID": 100000000000000003,
+                  "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                  "retailTransactionLineItemSequenceNumber": 5
+                },
+                "beginDateTimestamp": "2018-03-26T16:29:26.983",
+                "voidFlag": false,
+                "endDateTimestamp": "2018-03-26T16:29:26.983",
+                "retailTransactionLineItemTypeCode": "TL",
+                "workstationID": "113",
+                "workstationTypeCode": "POS",
+                "keyedOfflineCode": "OL",
+                "beginDateTimestampUTC0": "2018-03-26T16:29:26.983+0200",
+                "endDateTimestampUTC0": "2018-03-26T16:29:26.983+0200",
+                "retailTransactionLineItemBinaryDataList": [],
+                "retailTransactionLineItemExtensionList": [],
+                "tenderLineItemList": [
+                  {
+                    "com.gk_software.gkr.api.txpool.dto.TenderLineItem": {
+                      "key": {
+                        "businessUnitGroupID": 100000000000000003,
+                        "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                        "retailTransactionLineItemSequenceNumber": 5
+                      },
+                      "isChangeFlag": false,
+                      "tenderTypeCode": "ZTCS",
+                      "foreignCurrencyAmount": 10,
+                      "exchangeRate": 1,
+                      "tenderAmount": 10,
+                      "tenderGroupCode": "CASH",
+                      "tenderCount": 1,
+                      "tenderDescription": "Bar",
+                      "cashbackFlag": false,
+                      "foreignISOCurrencyCode": "EUR",
+                      "exchangeRateMultiplyFlag": true,
+                      "currencySymbol": "€"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "com.gk_software.gkr.api.txpool.dto.RetailTransactionLineItem": {
+                "key": {
+                  "businessUnitGroupID": 100000000000000003,
+                  "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                  "retailTransactionLineItemSequenceNumber": 6
+                },
+                "beginDateTimestamp": "2018-03-26T16:29:27.014",
+                "voidFlag": false,
+                "endDateTimestamp": "2018-03-26T16:29:27.014",
+                "retailTransactionLineItemTypeCode": "TL",
+                "workstationID": "113",
+                "workstationTypeCode": "POS",
+                "keyedOfflineCode": "OL",
+                "beginDateTimestampUTC0": "2018-03-26T16:29:27.014+0200",
+                "endDateTimestampUTC0": "2018-03-26T16:29:27.014+0200",
+                "retailTransactionLineItemBinaryDataList": [],
+                "tenderLineItemList": [
+                  {
+                    "com.gk_software.gkr.api.txpool.dto.TenderLineItem": {
+                      "key": {
+                        "businessUnitGroupID": 100000000000000003,
+                        "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                        "retailTransactionLineItemSequenceNumber": 6
+                      },
+                      "isChangeFlag": true,
+                      "tenderTypeCode": "ZTCS",
+                      "foreignCurrencyAmount": -2.82,
+                      "exchangeRate": 1,
+                      "tenderAmount": -2.82,
+                      "tenderGroupCode": "CASH",
+                      "tenderCount": 1,
+                      "tenderDescription": "Bar",
+                      "cashbackFlag": false,
+                      "foreignISOCurrencyCode": "EUR",
+                      "exchangeRateMultiplyFlag": false
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "com.gk_software.gkr.api.txpool.dto.RetailTransactionLineItem": {
+                "key": {
+                  "businessUnitGroupID": 100000000000000003,
+                  "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                  "retailTransactionLineItemSequenceNumber": 20001
+                },
+                "beginDateTimestamp": "2018-03-26T16:29:27.018",
+                "voidFlag": false,
+                "retailTransactionLineItemTypeCode": "PM",
+                "workstationID": "113",
+                "workstationTypeCode": "POS",
+                "keyedOfflineCode": "OL",
+                "beginDateTimestampUTC0": "2018-03-26T16:29:27.018+0200",
+                "priceModificationLineItemList": [
+                  {
+                    "com.gk_software.gkr.api.txpool.dto.PriceModificationLineItem": {
+                      "key": {
+                        "businessUnitGroupID": 100000000000000003,
+                        "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                        "retailTransactionLineItemSequenceNumber": 20001
+                      },
+                      "promotionID": 100000000000001587,
+                      "priceDerivationRuleID": 100000000000010026,
+                      "priceDerivationRuleEligibilityID": 100000000000017242,
+                      "percentage": 5,
+                      "roundingAmount": -0.002,
+                      "amount": -4.06,
+                      "proRatedFlag": true,
+                      "triggerSequenceNumber": 0,
+                      "extendedAmountBeforeModification": 81.24,
+                      "extendedAmountAfterModification": 77.18,
+                      "extraAmount": 0,
+                      "externalSystemOriginatorFlag": false,
+                      "calculationBaseAmount": 81.24
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "retailTransactionTotalList": [
+            {
+              "com.gk_software.gkr.api.txpool.dto.RetailTransactionTotal": {
+                "key": {
+                  "businessUnitGroupID": 100000000000000003,
+                  "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                  "transactionTotalTypeCode": "TOTAL"
+                },
+                "amount": 77.18
+              }
+            },
+            {
+              "com.gk_software.gkr.api.txpool.dto.RetailTransactionTotal": {
+                "key": {
+                  "businessUnitGroupID": 100000000000000003,
+                  "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                  "transactionTotalTypeCode": "SUBTOTAL"
+                },
+                "amount": 81.24
+              }
+            },
+            {
+              "com.gk_software.gkr.api.txpool.dto.RetailTransactionTotal": {
+                "key": {
+                  "businessUnitGroupID": 100000000000000003,
+                  "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                  "transactionTotalTypeCode": "SUBTOTAL_DISCOUNT"
+                },
+                "amount": 77.18
+              }
+            }
+          ],
+          "retailTransactionPromotionTriggerList": [
+            {
+              "com.gk_software.gkr.api.txpool.dto.RetailTransactionPromotionTrigger": {
+                "key": {
+                  "businessUnitGroupID": 100000000000000003,
+                  "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                  "triggerSequenceNumber": 0
+                },
+                "triggerType": "CO",
+                "triggerValue": "21",
+                "privilegeType": "RP",
+                "privilegeValue": 5,
+                "reasonCode": "6051",
+                "reasonDescription": "Coupon",
+                "triggerSequenceAddend": 1
+              }
+            }
+          ],
+          "retailTransactionCustomerList": [],
+          "retailTransactionCouponSummaryList": [],
+          "retailTransactionPromotionPriceDerivationRuleList": [
+            {
+              "com.gk_software.gkr.api.txpool.dto.RetailTransactionPromotionPriceDerivationRule": {
+                "key": {
+                  "businessUnitGroupID": 100000000000000003,
+                  "transactionID": "54zbf89b632ed59491895a7afa5bcfd6",
+                  "promotionID": 100000000000001587,
+                  "priceDerivationRuleID": 100000000000010026,
+                  "priceDerivationRuleEligibilityID": 100000000000017242
+                },
+                "promotionDescription": "Bonrabatt",
+                "receiptPrinterName": "Bonrabatt",
+                "promotionPriceDerivationRuleSequence": 500,
+                "promotionPriceDerivationRuleResolution": 100,
+                "promotionPriceDerivationRuleTypeCode": "ZRAP",
+                "transactionControlBreakCode": "SU",
+                "priceModificationMethodCode": "RM",
+                "promotionOriginatorTypeCode": "04",
+                "externalPromotionID": "4",
+                "triggerQuantity": 0,
+                "discountMethodCode": "00",
+                "frequentShopperPointsFlag": false,
+                "customerGroupLoyaltyPointsDefaultQuantity": 0,
+                "prohibitPrintFlag": false,
+                "calculationBase": "00",
+                "pointsConversionAmount": 0.01,
+                "noEffectOnSubsequentPriceDerivationRulesFlag": false,
+                "prohibitTransactionRelatedPriceDerivationRulesFlag": false,
+                "exclusiveFlag": false,
+                "requireUserInteractionFlag": false,
+                "considerPreviousPriceDerivationRulesFlag": false,
+                "appliedCount": 1,
+                "printoutValidityPeriod": 0
+              }
+            }
+          ],
+          "emailRequestedFlag": false,
+          "receiptDateTimeUTC0": "2018-03-26T16:29:29.533+0200",
+          "promotionTimestampUTC0": "2018-03-26T16:29:12.441+0200"
+        }
+      }
+    ]
+  }
+}

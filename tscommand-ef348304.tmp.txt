@@ -1,0 +1,1 @@
+src/configs/passport.ts src/configs/properties.ts src/models/controllers/transactions/transactions.ts src/models/transaction.ts src/models/Users.ts src/populate.ts src/server.ts src/typings/item.typing.ts src/typings/transaction.typing.ts src/utils/utils.ts --removeComments --rootDir src --target ES6 --module commonjs --outDir ./dist
