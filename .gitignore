@@ -1,0 +1,4 @@
+dist
+bin/db
+.tscache
+node_modules
