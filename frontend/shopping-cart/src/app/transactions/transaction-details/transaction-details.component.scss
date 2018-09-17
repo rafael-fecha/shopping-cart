@@ -1,0 +1,30 @@
+.modal-button {
+  cursor: pointer;
+  font-family: "HelveticaNeue";
+  color: white;
+  border-radius: 5px;
+  min-width: 150px;
+  height: 40px;
+}
+
+.modal-button--save {
+  background-color: #f44336;
+}
+.modal-button--cancel {
+  background-color: #3363ad;
+}
+
+:host {
+  @media screen and (min-width: 650px + 1) {
+    .transactions-details-body {
+      margin: auto 100px;
+    }
+  }
+
+  /* Make adjustments for tablet */
+  @media screen and (max-width: 650px) {
+    .transactions-details-body {
+      margin: auto 15px;
+    }
+  }
+}

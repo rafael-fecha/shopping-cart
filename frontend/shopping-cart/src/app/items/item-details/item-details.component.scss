@@ -1,0 +1,195 @@
+/* Global settings */
+$color-border: #eee;
+$color-label: #aaa;
+$font-default: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, sans-serif;
+$font-bold: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #eaebec;
+  font-family: "Open Sans", sans-serif;
+}
+
+:host {
+  /* Global "table" column settings */
+  .product-image {
+    float: left;
+    margin-right: 30px;
+  }
+  .product-details {
+    float: left;
+    width: 37%;
+  }
+  .product-price {
+    float: right;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .product-pricing {
+    display: flex;
+    flex-direction: column;
+    float: right;
+  }
+  .product--initial-price {
+    text-decoration: line-through;
+    color: red;
+  }
+  .product--total-price {
+    background-color: #3363ad;
+    color: white;
+    border-radius: 15px;
+    padding: 3px;
+  }
+  .show-editable-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .description,
+  .quantity {
+    margin-bottom: 15px;
+  }
+  .quantity,
+  .product-edit {
+    margin-top: 15px;
+  }
+  .edit-product {
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .edit-product--red {
+    background-color: #f44336;
+  }
+  .edit-product--blue {
+    background-color: #3363ad;
+  }
+  .show-editable-section {
+    margin-bottom: 50px;
+  }
+
+  .form-control {
+    height: 25px;
+  }
+
+  /* This is used as the traditional .clearfix class */
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  .group:after {
+    clear: both;
+  }
+  .group {
+    zoom: 1;
+  }
+
+  /* Apply clearfix in a few places */
+  .product {
+    @extend .group;
+  }
+
+  /* Apply dollar signs */
+  .product .product-price:after {
+    content: " €";
+  }
+
+  /* Body/Header stuff */
+  body {
+    padding: 0px 30px 30px 20px;
+    font-family: $font-default;
+    font-weight: 100;
+  }
+
+  h1 {
+    font-weight: 100;
+  }
+
+  label {
+    color: $color-label;
+  }
+
+  .shopping-cart {
+    margin-top: -45px;
+  }
+
+  /* Product entries */
+  .product {
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $color-border;
+
+    .product-image {
+      text-align: center;
+      img {
+        width: 100px;
+      }
+    }
+
+    .product-details {
+      .product-title {
+        margin-right: 20px;
+        font-family: $font-bold;
+      }
+      .product-description {
+        margin: 5px 20px 5px 0;
+        line-height: 1.4em;
+      }
+    }
+  }
+
+  /* Make adjustments for tablet */
+  @media screen and (max-width: 650px) {
+    .product {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product-image {
+      margin: 0 auto !important;
+      float: right;
+      width: auto;
+      img {
+        margin: 0 0 10px 10px;
+      }
+    }
+
+    .product-details {
+      float: none;
+      margin-bottom: 10px;
+      width: auto;
+    }
+
+    .product-price {
+      clear: both;
+    }
+
+    .product-title,
+    .product-description {
+      text-align: center;
+      margin: 0 auto !important;
+    }
+
+    .product-edit {
+      text-align: center;
+      margin: 15px auto 0 auto;
+    }
+
+    .edit-product {
+      border-radius: 5px;
+      min-width: 125px;
+    }
+  }
+}

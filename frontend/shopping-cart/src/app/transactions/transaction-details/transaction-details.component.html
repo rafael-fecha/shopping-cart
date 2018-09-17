@@ -1,0 +1,23 @@
+<modal [id]="modalTemplates.removeDeviceConfirmation" 
+       [title]="'Are you sure you want to delete this item?'"
+       [hidden]="true">
+       <button class="modal-button modal-button--save" (click)="processRemoveItem()">Yes</button>
+       <button class="modal-button modal-button--cancel" (click)="closeModal()">Cancel</button>
+</modal>
+
+<div class="transactions-details-body">
+  
+  <item-details *ngFor="let item of itemsList; let i = index; trackBy: trackByIndex"
+                [itemTitle]="item?.itemName" 
+                [itemDescription]="item?.description" 
+                [itemPriceUnit]="item?.initialPrice"
+                [itemMeasureOfCode]="item?.initialPrice"
+                [itemQuantity]="item?.initialPrice" 
+                [itemInitialPrice]="item?.initialPrice" 
+                [itemTotalPrice]="item?.finalPrice" 
+                [itemTotalDiscount]="item?.discount"
+                [discount]="item?.discount"
+                (itemRemoved)="removeItem(i)">
+  </item-details>
+  
+</div>

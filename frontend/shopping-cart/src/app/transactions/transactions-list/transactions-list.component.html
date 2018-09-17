@@ -1,0 +1,10 @@
+<div class="transactions-body">
+
+  <transaction-item *ngFor="let transaction of transactions; trackBy: trackByIndex" 
+        [transactionId]="transaction?.transactionId"
+        [transactionAmount]="transaction?.amount" 
+        [transactionReceiptDatetime]="transaction?.receiptDatetime"
+        (click)="goToTransactionDetails(transaction?.transactionId)">
+  </transaction-item>
+
+</div>

@@ -1,0 +1,14 @@
+:host {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    background: rgb(40, 44, 47);
+    height: 200px;
+    width: 100vw;
+    .content {
+      margin: auto;
+      color: rgb(255, 255, 255);
+      text-align: center;
+    }
+  }
+}

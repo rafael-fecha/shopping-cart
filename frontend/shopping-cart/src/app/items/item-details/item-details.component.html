@@ -1,0 +1,67 @@
+<div class="container">
+
+  <ng-template [ngIf]="discount" [ngIfElse]="notDiscount">
+    <div class="product-container">
+      <div class="product" (click)="showEditProduct()">
+        <div class="product-image">
+          <img src="assets/shopCartItem.jpg">
+        </div>
+        <div class="product-details">
+          <ng-template [ngIf]="itemMeasureOfCode==='KG'" [ngIfElse]="notKgUnit">
+            <div class="product-title">{{itemQuantity}}{{itemMeasureOfCode}} {{itemTitle}}</div>
+          </ng-template>
+          <ng-template #notKgUnit>
+            <div class="product-title">{{itemQuantity}} {{itemTitle}}</div>
+          </ng-template>
+          <p class="product-description">{{itemDescription}}</p>
+        </div>
+        <div class="product-pricing">
+          <div class="product-price product--initial-price" [@discount]="startDiscountAnimation ? 'active' : 'inactive'" (@discount.done)="animationDiscountInitialPriceFinished($event)">
+            <span>{{itemInitialPrice}}</span>
+          </div>
+          <div class="product-price product--total-discount" [@fadeOtherPrices]="startFadeAnimation ? 'active' : 'inactive'">
+            <span>{{itemTotalDiscount}}</span>
+          </div>
+          <div class="product-price product--total-price" [@fadeOtherPrices]="startFadeAnimation ? 'active' : 'inactive'">
+            <span>{{itemTotalPrice}}</span>
+          </div>
+        </div>
+      </div>
+      <ng-container *ngTemplateOutlet="editableSection"></ng-container>
+    </div>
+  </ng-template>
+
+  <ng-template #notDiscount>
+    <div class="product-container">
+      <div class="product" (click)="showEditProduct()">
+        <div class="product-image">
+          <img src="assets/shopCartItem.jpg">
+        </div>
+        <div class="product-details">
+          <ng-template [ngIf]="itemMeasureOfCode==='KG'" [ngIfElse]="notKgUnit">
+            <div class="product-title">{{itemQuantity}}{{itemMeasureOfCode}} {{itemTitle}}</div>
+          </ng-template>
+          <ng-template #notKgUnit>
+            <div class="product-title">{{itemQuantity}} {{itemTitle}}</div>
+          </ng-template>
+          <p class="product-description">{{itemDescription}}</p>
+        </div>
+        <div class="product-price product--total-price">{{itemTotalPrice}}</div>
+      </div>
+      <ng-container *ngTemplateOutlet="editableSection"></ng-container>
+    </div>
+  </ng-template>
+
+  <ng-template #editableSection>
+    <div class="show-editable-section" [@slideInOut]="showEditSection">
+      <p class="description">Description</p>
+      <input type="text" class="form-control descriptionInput" placeholder="{{itemDescription}}" [formControl]="titleField">
+      <p class="quantity">Quantity</p>
+      <input type="number" class="form-control" [(ngModel)]="itemQuantity" [ngModelOptions]="{ updateOn: 'blur' }">
+      <div class="product-edit">
+        <button class="edit-product--blue edit-product" (click)="updateProduct()">Save</button>
+        <button class="edit-product--red edit-product" (click)="removeProduct()">Remove</button>
+      </div>
+    </div>
+  </ng-template>
+</div>

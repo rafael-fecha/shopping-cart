@@ -1,0 +1,33 @@
+:host {
+  .router-outlet-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    min-height: 600px;
+  }
+
+  .line {
+    background: rgb(40, 44, 47);
+    height: 20px;
+    width: 100vw;
+  }
+
+  @media screen and (min-width: 650px + 1) {
+    .header {
+      width: 100vw;
+      height: 400px;
+      background: url("/assets/shopCart.jpg");
+      background-size: cover;
+    }
+  }
+
+  /* Make adjustments for tablet */
+  @media screen and (max-width: 650px) {
+    .header {
+      width: 100vw;
+      height: 200px;
+      background: url("/assets/shopCart.jpg");
+      background-size: cover;
+    }
+  }
+}

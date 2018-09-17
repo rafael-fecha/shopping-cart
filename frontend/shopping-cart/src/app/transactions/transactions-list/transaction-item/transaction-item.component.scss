@@ -1,0 +1,131 @@
+/* Global settings */
+$color-border: #eee;
+$color-label: #aaa;
+$font-default: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, sans-serif;
+$font-bold: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+
+:host {
+  /* Global "table" column settings */
+  .transaction-image {
+    float: left;
+    margin-right: 30px;
+  }
+  .transaction-details {
+    float: left;
+    width: 37%;
+  }
+  .transaction-price {
+    float: right;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #3363ad;
+    color: white;
+    border-radius: 15px;
+    padding: 3px;
+  }
+  .transaction-quantity {
+    float: left;
+    width: 10%;
+  }
+  .transaction-removal {
+    float: left;
+    width: 9%;
+  }
+  .transaction-line-price {
+    float: left;
+    width: 12%;
+    text-align: right;
+  }
+
+  /* This is used as the traditional .clearfix class */
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  .group:after {
+    clear: both;
+  }
+  .group {
+    zoom: 1;
+  }
+
+  /* Apply clearfix in a few places */
+  .transaction {
+    @extend .group;
+  }
+
+  /* Apply dollar signs */
+  .transaction .transaction-price:after {
+    content: " €";
+  }
+
+  /* Body/Header stuff */
+  body {
+    padding: 0px 30px 30px 20px;
+    font-family: $font-default;
+    font-weight: 100;
+  }
+
+  h1 {
+    font-weight: 100;
+  }
+
+  label {
+    color: $color-label;
+  }
+
+  /* Product entries */
+  .transaction {
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $color-border;
+
+    .transaction-image {
+      text-align: center;
+      img {
+        width: 100px;
+      }
+    }
+
+    .transaction-details {
+      .transaction-title {
+        margin-right: 20px;
+        font-family: $font-bold;
+      }
+      .transaction-description {
+        margin: 5px 20px 5px 0;
+        line-height: 1.4em;
+      }
+    }
+  }
+
+  /* Make adjustments for tablet */
+  @media screen and (max-width: 650px) {
+    .transaction {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .transaction-image {
+      width: auto;
+      img {
+        margin: 0 0 10px 10px;
+      }
+    }
+
+    .transaction-details {
+      text-align: center;
+      float: none;
+      margin-bottom: 10px;
+      width: auto;
+    }
+
+    .transaction-price {
+      clear: both;
+    }
+  }
+}
